@@ -80,7 +80,6 @@ main {
   --color-scale-gray-1: #eaeef2;
   --color-scale-blue-1: #b6e3ff;
 
-  /*! Extensions from @primer/css/alerts/flash.scss */
   --color-social-reaction-bg-hover: var(--color-scale-gray-1);
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-1);
 }
@@ -95,10 +94,6 @@ main .gsc-loading-image {
 
 /*! Dark mode */
 @media (prefers-color-scheme: dark) {
-  /*! MIT License
-   * Copyright (c) 2018 GitHub Inc.
-   * https://github.com/primer/primitives/blob/main/LICENSE
-   */
 
   main {
     --color-prettylights-syntax-comment: #8b949e;
@@ -182,7 +177,6 @@ main .gsc-loading-image {
     --color-scale-gray-7: #21262d;
     --color-scale-blue-8: #0c2d6b;
 
-    /*! Extensions from @primer/css/alerts/flash.scss */
     --color-social-reaction-bg-hover: var(--color-scale-gray-7);
     --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
   }
