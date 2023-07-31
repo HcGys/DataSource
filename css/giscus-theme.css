@@ -210,3 +210,7 @@ pre,
 samp {
   font-family: Source Code Pro, LXGW WenKai Screen, Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif !important;
 }
+
+main * {
+ border: none !important;
+}
