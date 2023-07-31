@@ -214,3 +214,8 @@ samp {
 main * {
  border: none !important;
 }
+
+textarea {
+  resize: none !important;
+}
+
