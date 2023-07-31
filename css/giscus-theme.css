@@ -197,6 +197,8 @@ main .gsc-loading-image {
   }
 }
 
+@import url("https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/lxgwwenkaiscreen.css")
+@import url("https://fastly.jsdelivr.net/gh/HcGys/source-code-pro/source-code-pro.css")
 
 /* 字体 */
 main {
