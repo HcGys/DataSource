@@ -99,6 +99,11 @@ main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
 }
 
+  .gsc-comment-box:not(.gsc-comment-box-is-reply),
+  .gsc-comment {
+    border: 1px solid #e3e5e8 !important;
+  }
+
 /*! Dark mode */
 @media (prefers-color-scheme: dark) {
 
