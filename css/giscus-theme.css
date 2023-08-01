@@ -104,6 +104,10 @@ main .gsc-loading-image {
   border: 1px solid #e3e5e8 !important;
 }
 
+.gsc-reactions-popover.open.bottom:before {
+  border-bottom-color: #e3e5e8 !important;
+}
+
 button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   background: #fff !important;
 }
@@ -206,10 +210,15 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   main .gsc-loading-image {
     background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
   }
-
+  
+  .gsc-reactions-popover,
   .gsc-comment-box:not(.gsc-comment-box-is-reply),
   .gsc-comment {
     border: 1px solid #383d42 !important;
+  }
+
+  .gsc-reactions-popover.open.bottom:before {
+    border-bottom-color: #383d42 !important;
   }
 
   .markdown .highlight pre, .markdown pre {
