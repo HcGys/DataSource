@@ -277,6 +277,11 @@ textarea {
     border-radius: 12px !important;
 }
 
+#__next :is(.rounded-b-md) {
+    border-end-end-radius: 12px !important;
+    border-end-start-radius: 12px !important;
+}
+
 .gsc-comment-box:not(.gsc-comment-box-is-reply) {
     border-radius: 12px !important;
 }
