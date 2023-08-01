@@ -211,6 +211,10 @@ main .gsc-loading-image {
   .markdown .highlight pre, .markdown pre {
       background-color: #2f3337 !important;
   }
+
+  .btn {
+    background-color: #2a2d30 !important;
+ }
   
 }
 
@@ -262,6 +266,7 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
     border-start-start-radius: 0 !important;
 }
 
+.form-control:focus,
 .gsc-comment-box-write:focus-within {
     box-shadow: 0 0 0 0 transparent !important;
 }
