@@ -1134,12 +1134,12 @@ main .gsc-loading-image {
 
 .gsc-reactions-popover.open.bottom:before {
   border-bottom-color: #e3e5e8 !important;
-  top: -16px !important;
+  top: -16.5px !important;
 }
 
 .gsc-reactions-popover.open.top:before {
   border-top-color: #e3e5e8 !important;
-  bottom: -16px !important;
+  bottom: -16.5px !important;
 }
 
 button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
@@ -1253,12 +1253,12 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
 
   .gsc-reactions-popover.open.bottom:before {
     border-bottom-color: #383d42 !important;
-    top: -16px !important;
+    top: -16.5px !important;
   }
 
   .gsc-reactions-popover.open.top:before {
     border-top-color: #383d42 !important;
-    bottom: -16px !important;
+    bottom: -16.5px !important;
   }
 
   .markdown .highlight pre, .markdown pre {
