@@ -104,7 +104,7 @@ main .gsc-loading-image {
   border: 1px solid #e3e5e8 !important;
 }
 
-.gsc-reactions-popover.open.bottom:before {
+.gsc-reactions-popover.open:before {
   border-bottom-color: #e3e5e8 !important;
 }
 
@@ -217,7 +217,7 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
     border: 1px solid #383d42 !important;
   }
 
-  .gsc-reactions-popover.open.bottom:before {
+  .gsc-reactions-popover.open:before {
     border-bottom-color: #383d42 !important;
   }
 
