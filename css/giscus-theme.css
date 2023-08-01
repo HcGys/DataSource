@@ -106,6 +106,7 @@ main .gsc-loading-image {
 
 .gsc-reactions-popover.open.bottom:before {
   border-bottom-color: #e3e5e8 !important;
+  bottom: -17px !important;
 }
 
 .gsc-reactions-popover.open.top:before {
@@ -223,6 +224,7 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
 
   .gsc-reactions-popover.open.bottom:before {
     border-bottom-color: #383d42 !important;
+    bop: -17px !important;
   }
 
   .gsc-reactions-popover.open.top:before {
