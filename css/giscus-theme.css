@@ -1126,6 +1126,7 @@ main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-default.gif");
 }
 
+button.gsc-pagination-button.color-border-primary,
 .gsc-reactions-popover,
 .gsc-comment-box:not(.gsc-comment-box-is-reply),
 .gsc-comment {
@@ -1244,7 +1245,8 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   main .gsc-loading-image {
     background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
   }
-  
+
+  button.gsc-pagination-button.color-border-primary,
   .gsc-reactions-popover,
   .gsc-comment-box:not(.gsc-comment-box-is-reply),
   .gsc-comment {
@@ -1298,7 +1300,7 @@ textarea {
 }
 
 .gsc-comment {
-    border-radius: 12px;
+    border-radius: 12px !important;
 }
 
 #__next :is(.rounded-md) {
@@ -1308,6 +1310,10 @@ textarea {
 #__next :is(.rounded-b-md) {
     border-end-end-radius: 12px !important;
     border-end-start-radius: 12px !important;
+}
+
+button.gsc-pagination-button.color-border-primary {
+    border-radius: 12px !important;
 }
 
 .gsc-comment-box:not(.gsc-comment-box-is-reply) {
