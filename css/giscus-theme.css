@@ -168,7 +168,7 @@ main .gsc-loading-image {
     --color-fg-muted: #7d8590;
     --color-fg-subtle: #6e7681;
     --color-canvas-default: #26292c;
-    --color-canvas-overlay: #181a1c;
+    --color-canvas-overlay: #26292c;
     --color-canvas-inset: #181a1c;
     --color-canvas-subtle: #181a1c;
     --color-border-default: #30363d;
@@ -207,14 +207,11 @@ main .gsc-loading-image {
   .gsc-comment {
     border: 1px solid #383d42 !important;
   }
-  
+
+  .color-border-primary,
   .markdown .highlight pre, .markdown pre {
       background-color: #2f3337 !important;
   }
-
-  .btn {
-    background-color: #2a2d30 !important;
- }
 
 }
 
