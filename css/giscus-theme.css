@@ -104,6 +104,10 @@ main .gsc-loading-image {
   border: 1px solid #e3e5e8 !important;
 }
 
+button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
+  background: #fff !important;
+}
+
 /*! Dark mode */
 @media (prefers-color-scheme: dark) {
 
@@ -212,6 +216,10 @@ main .gsc-loading-image {
       background-color: #2f3337 !important;
   }
 
+  button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
+    background: #26292c !important;
+  }
+  
 }
 
 /* 字体 */
