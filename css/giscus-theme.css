@@ -162,10 +162,10 @@ main .gsc-loading-image {
     --color-fg-default: #e6edf3;
     --color-fg-muted: #7d8590;
     --color-fg-subtle: #6e7681;
-    --color-canvas-default: #0d1117;
-    --color-canvas-overlay: #161b22;
-    --color-canvas-inset: #010409;
-    --color-canvas-subtle: #161b22;
+    --color-canvas-default: #26292c;
+    --color-canvas-overlay: #181a1c;
+    --color-canvas-inset: #181a1c;
+    --color-canvas-subtle: #181a1c;
     --color-border-default: #30363d;
     --color-border-muted: #21262d;
     --color-neutral-muted: rgb(110 118 129 / 40%);
@@ -184,8 +184,10 @@ main .gsc-loading-image {
     --color-scale-gray-7: #21262d;
     --color-scale-blue-8: #0c2d6b;
 
-    --color-social-reaction-bg-hover: var(--color-scale-gray-7);
-    --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+    --color-social-reaction-bg-hover: var(
+    --color-scale-gray-7);
+    --color-social-reaction-bg-reacted-hover: var(
+    --color-scale-blue-8);
   }
 
   main .pagination-loader-container {
@@ -195,10 +197,14 @@ main .gsc-loading-image {
   main .gsc-loading-image {
     background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
   }
-}
 
-@import "https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/lxgwwenkaiscreen.css"
-@import "https://fastly.jsdelivr.net/gh/HcGys/source-code-pro/source-code-pro.css"
+  .gsc-comment-box:not(.gsc-comment-box-is-reply),
+  .gsc-comment {
+    border: 1px solid #383d42 !important;
+  }
+  
+  
+}
 
 /* 字体 */
 main {
@@ -221,3 +227,32 @@ textarea {
   resize: none !important;
 }
 
+.gsc-reply-box {
+    border-bottom-left-radius: 12px !important;
+    border-bottom-right-radius: 12px !important;
+}
+
+.gsc-comment {
+    border-radius: 12px;
+}
+
+#__next :is(.rounded-md) {
+    border-radius: 12px !important;
+}
+
+.gsc-comment-box:not(.gsc-comment-box-is-reply) {
+    border-radius: 12px !important;
+}
+
+.gsc-comment-box-tabs {
+    border-start-end-radius: 12px !important;
+    border-start-start-radius: 12px !important;
+}
+
+.gsc-comment-box-write:focus-within {
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.input-contrast:focus {
+    background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
+}
