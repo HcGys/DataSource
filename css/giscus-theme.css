@@ -249,6 +249,11 @@ textarea {
     border-start-start-radius: 12px !important;
 }
 
+form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-reply > .gsc-comment-box-tabs {
+    border-start-end-radius: 0 !important;
+    border-start-start-radius: 0 !important;
+}
+
 .gsc-comment-box-write:focus-within {
     box-shadow: 0 0 0 0 transparent !important;
 }
