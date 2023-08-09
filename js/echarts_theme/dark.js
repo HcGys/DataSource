@@ -37,10 +37,12 @@
         "textStyle": {},
         "title": {
             "textStyle": {
-                "color": "#cccccc"
+                "color": "#cccccc",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "subtextStyle": {
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "line": {
@@ -148,7 +150,8 @@
                 "#f49f42"
             ],
             "label": {
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "map": {
@@ -158,7 +161,8 @@
                 "borderWidth": 0.5
             },
             "label": {
-                "color": "#000"
+                "color": "#000",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "itemStyle": {
@@ -167,7 +171,8 @@
                     "borderWidth": 1
                 },
                 "label": {
-                    "color": "rgb(100,0,0)"
+                    "color": "rgb(100,0,0)",
+                    "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
@@ -178,7 +183,8 @@
                 "borderWidth": 0.5
             },
             "label": {
-                "color": "#000"
+                "color": "#000",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "itemStyle": {
@@ -187,7 +193,8 @@
                     "borderWidth": 1
                 },
                 "label": {
-                    "color": "rgb(100,0,0)"
+                    "color": "rgb(100,0,0)",
+                    "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
@@ -206,7 +213,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -240,7 +248,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -274,7 +283,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -308,7 +318,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -373,7 +384,8 @@
                 "borderColor": "#c23531"
             },
             "label": {
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "itemStyle": {
@@ -385,7 +397,8 @@
                     "borderWidth": "0.5"
                 },
                 "label": {
-                    "color": "#b3b3b3"
+                    "color": "#b3b3b3",
+                    "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
@@ -408,11 +421,13 @@
         },
         "markPoint": {
             "label": {
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "label": {
-                    "color": "#ffffff"
+                    "color": "#ffffff",
+                    "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         }
