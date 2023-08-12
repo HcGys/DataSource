@@ -352,6 +352,9 @@
         },
         "legend": {
             "top": "5%",
+            "y": "top",
+            "x": "center",
+            "type": "scroll",
             "textStyle": {
                 "color": "#333333",
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
@@ -373,7 +376,7 @@
             'confine': true,
             "textStyle": {
                 "color": '#808080',
-                "fontSize": '2rem',
+                "fontSize": '.5rem',
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
