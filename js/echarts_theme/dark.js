@@ -373,10 +373,9 @@
             "backgroundColor": '#26292c',
             "borderColor": '#383d42',
             'confine': true,
-            "extraCssText":'width:auto;height:auto;',
+            "extraCssText":'width:auto;height:auto;font-size:1rem;',
             "textStyle": {
                 "color": '#b3b3b3',
-                "fontSize": "1em",
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
