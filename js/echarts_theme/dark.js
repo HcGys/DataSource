@@ -43,7 +43,9 @@
             "subtextStyle": {
                 "color": "#b3b3b3",
                 "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
-            }
+            },
+            "padding": 5,
+            "itemGap": 10
         },
         "line": {
             "itemStyle": {
@@ -350,7 +352,8 @@
         },
         "legend": {
             "textStyle": {
-                "color": "#b3b3b3"
+                "color": "#b3b3b3",
+                "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "tooltip": {
@@ -362,6 +365,9 @@
                 "crossStyle": {
                     "color": "#b3b3b3",
                     "width": "1"
+                },
+                "label": {
+                    "fontFamily": 'Source Code Pro,LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
