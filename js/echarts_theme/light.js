@@ -371,7 +371,7 @@
             "borderColor": '#e3e5e8',
             'confine': true,
             "textStyle": {
-                "color": '#4d4d4d',
+                "color": '#808080',
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
