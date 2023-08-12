@@ -353,6 +353,7 @@
             "y": "top",
             "x": "center",
             "type": "scroll",
+            'width': "80%",
             "textStyle": {
                 "color": "#b3b3b3",
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
@@ -372,9 +373,10 @@
             "backgroundColor": '#26292c',
             "borderColor": '#383d42',
             'confine': true,
+            "width": "30%",
+            "height": "50%",
             "textStyle": {
                 "color": '#b3b3b3',
-                "fontSize": '1em',
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
