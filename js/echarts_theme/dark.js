@@ -365,6 +365,7 @@
                     "width": "1"
                 }
             },
+            "color": '#858585',
             "backgroundColor": '#26292c',
             "borderColor": '#383d42',
             "textStyle": {
@@ -422,7 +423,8 @@
             "handleColor": "#a7b7cc",
             "handleSize": "100%",
             "textStyle": {
-                "color": "#eeeeee"
+                "color": "#eeeeee",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "markPoint": {

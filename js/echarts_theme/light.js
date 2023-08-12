@@ -36,10 +36,12 @@
         "textStyle": {},
         "title": {
             "textStyle": {
-                "color": "#333333"
+                "color": "#333333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "subtextStyle": {
-                "color": "#aaaaaa"
+                "color": "#aaaaaa",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "line": {
@@ -146,7 +148,8 @@
                 "#4b565b"
             ],
             "label": {
-                "color": "#eeeeee"
+                "color": "#eeeeee",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "map": {
@@ -156,7 +159,8 @@
                 "borderWidth": 0.5
             },
             "label": {
-                "color": "#000000"
+                "color": "#000000",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "itemStyle": {
@@ -165,7 +169,8 @@
                     "borderWidth": 1
                 },
                 "label": {
-                    "color": "rgb(100,0,0)"
+                    "color": "rgb(100,0,0)",
+                    "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
@@ -176,7 +181,8 @@
                 "borderWidth": 0.5
             },
             "label": {
-                "color": "#000000"
+                "color": "#000000",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "itemStyle": {
@@ -185,7 +191,8 @@
                     "borderWidth": 1
                 },
                 "label": {
-                    "color": "rgb(100,0,0)"
+                    "color": "rgb(100,0,0)",
+                    "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
@@ -204,7 +211,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#333"
+                "color": "#333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": false,
@@ -239,7 +247,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#333"
+                "color": "#333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -274,7 +283,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#333"
+                "color": "#333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -309,7 +319,8 @@
             },
             "axisLabel": {
                 "show": true,
-                "color": "#333"
+                "color": "#333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "splitLine": {
                 "show": true,
@@ -341,7 +352,8 @@
         },
         "legend": {
             "textStyle": {
-                "color": "#333333"
+                "color": "#333333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "tooltip": {
@@ -354,6 +366,12 @@
                     "color": "#cccccc",
                     "width": 1
                 }
+            },
+            "color": '#808080',
+            "backgroundColor": '#f1f2f3',
+            "borderColor": '#e3e5e8',
+            "textStyle": {
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "timeline": {
@@ -375,7 +393,8 @@
                 "borderColor": "#d82543"
             },
             "label": {
-                "color": "#293c55"
+                "color": "#293c55",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "itemStyle": {
@@ -387,7 +406,8 @@
                     "borderWidth": 0.5
                 },
                 "label": {
-                    "color": "#293c55"
+                    "color": "#293c55",
+                    "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         },
@@ -405,16 +425,19 @@
             "handleColor": "#a7b7cc",
             "handleSize": "100%",
             "textStyle": {
-                "color": "#333333"
+                "color": "#333333",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "markPoint": {
             "label": {
-                "color": "#eeeeee"
+                "color": "#eeeeee",
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             },
             "emphasis": {
                 "label": {
-                    "color": "#eeeeee"
+                    "color": "#eeeeee",
+                    "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
                 }
             }
         }
