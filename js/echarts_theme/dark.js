@@ -20,12 +20,12 @@
         return;
     }
     //获取屏幕宽度并计算比例
-	function fontSize(res){
-    	let clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
+    function fontSize(res){
+        const clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
         if (!clientWidth) return;
-        let fontSize = 100 * (clientWidth / 1920);
+        let fontSize = clientWidth / 1920;
         return res*fontSize;
-	}
+    }    
     echarts.registerTheme('dark', {
         "color": [
             "#dd6b66",
