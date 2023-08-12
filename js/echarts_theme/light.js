@@ -19,6 +19,13 @@
         log('ECharts is not Loaded');
         return;
     }
+    //获取屏幕宽度并计算比例
+	function fontSize(res){
+    	let clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
+        if (!clientWidth) return;
+        let fontSize = 100 * (clientWidth / 1920);
+        return res*fontSize;
+	}
     echarts.registerTheme('light', {
         "color": [
             "#d87c7c",
@@ -375,9 +382,10 @@
             "backgroundColor": '#f1f2f3',
             "borderColor": '#e3e5e8',
             'confine': true,
-            "extraCssText":'width:auto;height:auto;font-size:1rem;',
+            "extraCssText":'width:fit-content;height:fit-content;',
             "textStyle": {
                 "color": '#808080',
+                "fontSize": fontSize(14),
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
