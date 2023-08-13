@@ -24,7 +24,7 @@
         const clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
         if (!clientWidth) return;
         let fontSize = clientWidth / 1920;
-        return res*fontSize > 8 ? res*fontSize : 8;
+        return res*fontSize > 10 ? res*fontSize : 10;
     }    
     echarts.registerTheme('light', {
         "color": [
@@ -382,7 +382,7 @@
             "backgroundColor": '#f1f2f3',
             "borderColor": '#e3e5e8',
             'confine': true,
-            "extraCssText":'width:fit-content;height:fit-content;',
+            "extraCssText":'width:fit-content;height:fit-content;box-shadow: none;',
             "textStyle": {
                 "color": '#808080',
                 "fontSize": fontSize(14),
