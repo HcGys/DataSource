@@ -383,7 +383,7 @@
             "extraCssText":'width:fit-content;height:fit-content;',
             "textStyle": {
                 "color": '#b3b3b3',
-                "fontSize": fontSize(14),
+                "fontSize": "1rem",
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
