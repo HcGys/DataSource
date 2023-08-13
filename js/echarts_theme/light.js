@@ -24,7 +24,7 @@
         const clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
         if (!clientWidth) return;
         let fontSize = clientWidth / 1920;
-        return res*fontSize;
+        return res*fontSize > 8 ? res*fontSize : 8;
     }    
     echarts.registerTheme('light', {
         "color": [
@@ -385,7 +385,7 @@
             "extraCssText":'width:fit-content;height:fit-content;',
             "textStyle": {
                 "color": '#808080',
-                "fontSize": "1rem",
+                "fontSize": fontSize(14),
                 "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
