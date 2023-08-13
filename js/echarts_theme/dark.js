@@ -356,10 +356,10 @@
             }
         },
         "legend": {
+            "type": "scroll",
             "top": "8%",
             "y": "top",
             "x": "center",
-            "type": "scroll",
             'width': "80%",
             "textStyle": {
                 "color": "#b3b3b3",
