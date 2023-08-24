@@ -1295,34 +1295,34 @@ textarea {
 }
 
 .gsc-reply-box {
-    border-bottom-left-radius: 12px !important;
-    border-bottom-right-radius: 12px !important;
+    border-bottom-left-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
 }
 
 .gsc-comment {
-    border-radius: 12px !important;
+    border-radius: 8px !important;
 }
 
 #__next :is(.rounded-md) {
-    border-radius: 12px !important;
+    border-radius: 8px !important;
 }
 
 #__next :is(.rounded-b-md) {
-    border-end-end-radius: 12px !important;
-    border-end-start-radius: 12px !important;
+    border-end-end-radius: 8px !important;
+    border-end-start-radius: 8px !important;
 }
 
 button.gsc-pagination-button.color-border-primary {
-    border-radius: 12px !important;
+    border-radius: 8px !important;
 }
 
 .gsc-comment-box:not(.gsc-comment-box-is-reply) {
-    border-radius: 12px !important;
+    border-radius: 8px !important;
 }
 
 .gsc-comment-box-tabs {
-    border-start-end-radius: 12px !important;
-    border-start-start-radius: 12px !important;
+    border-start-end-radius: 8px !important;
+    border-start-start-radius: 8px !important;
 }
 
 form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-reply > .gsc-comment-box-tabs {
