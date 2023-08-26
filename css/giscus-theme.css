@@ -1153,6 +1153,10 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   color: #333;
 }
 
+.rounded-full {
+  border: 1px solid #e3e5e8 !important;
+}
+
 /*! Dark mode */
 @media (prefers-color-scheme: dark) {
 
@@ -1283,6 +1287,10 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
     font-weight: 700;
   }
   
+  .rounded-full {
+    border: 1px solid #383d42 !important;
+  }
+
 }
 
 /* 字体 */
@@ -1351,7 +1359,7 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
     background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
 }
 
-a span:hover:before, a time:hover:before {
+a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):before {
   height: 100%;
   opacity: .2;
   z-index: -1;
@@ -1359,7 +1367,7 @@ a span:hover:before, a time:hover:before {
   left: -2px;
   right: -2px;
 }
-a span:before, a time:before {
+a span:before, a:not(.items-center, .gsc-comment-author-avatar):before {
   content: '';
   position: absolute;
   border-radius: 2px;
@@ -1374,17 +1382,36 @@ a span:before, a time:before {
   -webkit-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
 }
-a span:hover, a time:hover {
+a span:hover, a:not(.items-center, .gsc-comment-author-avatar):hover {
   border-bottom: none;
   color: var(--color-accent-fg,var(--color-text-link));
   z-index: 0;
 }
-a span, a time {
+a span, a:not(.items-center, .gsc-comment-author-avatar) {
   position: relative;
   text-decoration: none;
-  line-height: 1.2;
+  /* line-height: 1.2; */
 }
 .gsc-reply-author a,
 .gsc-comment-author a {
 text-decoration: none !important;
+}
+
+.rounded-full {
+  transition: all .5s ease-out;
+  padding: 3px;
+}
+
+.gsc-comment-author-avatar .rounded-full {
+  height: 40px;
+  width: 40px;
+}
+
+.items-center .rounded-full {
+  width: 35px;
+  height: 35px;
+}
+
+.gsc-tl-line {
+  inset-inline-start: 33px !important;
 }
