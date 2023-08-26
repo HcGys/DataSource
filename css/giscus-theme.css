@@ -1424,9 +1424,18 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
   width: 40px;
 }
 
+.gsc-comment-author {
+  transform: translateX(-5px);
+}
+
 .items-center .rounded-full {
   width: 35px;
   height: 35px;
+  transform: translateX(-2.5px);
+}
+
+#__next :is(.ml-2) {
+  transform: translateX(-2.5px);
 }
 
 .gsc-tl-line {
@@ -1443,7 +1452,7 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
   height: 25px;
   border-radius: 50%;
   background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
-  transition: all .3s ease-out !important;
+  transition: all .5s ease-out !important;
   background-size: 100% 100%;
 }
 
