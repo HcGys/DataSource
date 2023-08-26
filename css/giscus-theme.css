@@ -1350,3 +1350,41 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
 .input-contrast:focus {
     background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
 }
+
+a span:hover:before, a time:hover:before {
+  height: 100%;
+  opacity: .2;
+  z-index: -1;
+  bottom: 0;
+  left: -2px;
+  right: -2px;
+}
+a span:before, a time:before {
+  content: '';
+  position: absolute;
+  border-radius: 2px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  opacity: .8;
+  background: var(--color-accent-fg,var(--color-text-link));
+  transition: all .2s ease-out !important;
+  -moz-transition: all .2s ease-out;
+  -webkit-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+}
+a span:hover, a time:hover {
+  border-bottom: none;
+  color: var(--color-accent-fg,var(--color-text-link));
+  z-index: 0;
+}
+a span, a time {
+  position: relative;
+  text-decoration: none;
+  line-height: 1.2;
+}
+.gsc-reply-author a,
+gsc-comment-author a {
+text-decoration: none !important;
+}
