@@ -1293,7 +1293,7 @@ body * {
     background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
   }
 
-  img {
+  img:not(.rounded-full) {
     -webkit-filter: brightness(60%);
     filter: brightness(60%);
   }
