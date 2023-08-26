@@ -1155,13 +1155,38 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
 
 .rounded-full,
 .gsc-reply:last-child .gsc-tl-line:before,
-button.color-text-link.hover\:underline {
+button.color-text-link.hover\:underline,
+.gsc-reactions-button,
+.markdown table td, .markdown table th {
   border: 1px solid #e3e5e8 !important;
 }
 
 .gsc-reply:last-child .gsc-tl-line:before {
   border: 1px solid #e3e5e8 !important;
   background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
+}
+
+.markdown blockquote,
+thead > tr > th {
+  background-color: (--color-canvas-subtle,var(--color-bg-tertiary));
+}
+
+body * {
+  &::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track-piece {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 2px;
+    &:hover {
+      background: #808080;
+    }
+  }
 }
 
 /*! Dark mode */
@@ -1280,7 +1305,7 @@ button.color-text-link.hover\:underline {
     bottom: -16.7px !important;
   }
 
-  .markdown .highlight pre, .markdown pre {
+  .markdown .highlight pre, .markdown pre, .markdown blockquote, thead > tr > th {
       background-color: #2f3337 !important;
   }
 
@@ -1296,13 +1321,33 @@ button.color-text-link.hover\:underline {
   
   .rounded-full,
   .gsc-reply:last-child .gsc-tl-line:before,
-  button.color-text-link.hover\:underline {
+  button.color-text-link.hover\:underline,
+  .gsc-reactions-button,
+  .markdown table td, .markdown table th {
     border: 1px solid #383d42 !important;
   }
 
   .gsc-reply:last-child .gsc-tl-line:before {
     border: 1px solid #383d42 !important;
     background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
+  }
+
+  body * {
+    &::-webkit-scrollbar {
+      height: 4px;
+      width: 4px;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: #4d4d4d;
+      cursor: pointer;
+      border-radius: 2px;
+      &:hover {
+        background: #858585;
+      }
+    }
   }
 
 }
@@ -1373,7 +1418,7 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
     background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
 }
 
-a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):hover:before {
+a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover:before {
   height: 100%;
   opacity: .2;
   z-index: -1;
@@ -1381,7 +1426,7 @@ a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):hover:befo
   left: -2px;
   right: -2px;
 }
-a span:before, a:not(.items-center, .gsc-comment-author-avatar):before {
+a span:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):before {
   content: '';
   position: absolute;
   border-radius: 2px;
@@ -1396,12 +1441,12 @@ a span:before, a:not(.items-center, .gsc-comment-author-avatar):before {
   -webkit-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
 }
-a span:hover, a:not(.items-center, .gsc-comment-author-avatar):hover {
+a span:hover, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover {
   border-bottom: none;
   color: var(--color-accent-fg,var(--color-text-link));
   z-index: 0;
 }
-a span, a:not(.items-center, .gsc-comment-author-avatar) {
+a span, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)) {
   position: relative;
   text-decoration: none;
   /* line-height: 1.2; */
@@ -1465,6 +1510,10 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
   transform: rotate(360deg);
 }
 
+.gsc-reply:last-child {
+  min-height: 120px;
+}
+
 button.color-text-link.hover\:underline {
   background-color: var(--color-canvas-default,var(--color-bg-primary));
   border-radius: 8px !important;
@@ -1477,4 +1526,19 @@ button.color-text-link.hover\:underline {
 
 button.color-text-link.hover\:underline:hover {
   text-decoration: none !important;
+}
+
+.gsc-reactions-button {
+  background-color: var(--color-canvas-default,var(--color-bg-primary));
+}
+
+.markdown blockquote {
+  border-left: 3px solid !important;
+  border-radius: 4px;
+  /* background-color: var(--color-canvas-default,var(--color-bg-primary)); */
+  width: fit-content;
+}
+
+.markdown table tr:nth-child(2n) {
+  background-color: transparent !important;
 }
