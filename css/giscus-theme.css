@@ -1385,6 +1385,6 @@ a span, a time {
   line-height: 1.2;
 }
 .gsc-reply-author a,
-gsc-comment-author a {
+.gsc-comment-author a {
 text-decoration: none !important;
 }
