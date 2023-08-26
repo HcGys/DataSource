@@ -1431,6 +1431,9 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
 .items-center .rounded-full {
   width: 35px;
   height: 35px;
+}
+
+.gsc-reply-author-avatar {
   transform: translateX(-2.5px);
 }
 
@@ -1452,7 +1455,7 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
   height: 25px;
   border-radius: 50%;
   background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
-  transition: all .5s ease-out !important;
+  transition: all .3s ease-out !important;
   background-size: 100% 100%;
 }
 
