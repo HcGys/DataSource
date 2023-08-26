@@ -1381,11 +1381,16 @@ samp {
 }
 
 main * {
- border: none !important;
+ /* border: none !important; */
+ border: none;
 }
 
 textarea {
   resize: none !important;
+}
+
+.gsc-comment-box-textarea {
+  border: none;
 }
 
 .gsc-reply-box {
