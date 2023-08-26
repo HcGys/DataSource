@@ -1154,7 +1154,8 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
 }
 
 .rounded-full,
-.gsc-reply:last-child .gsc-tl-line:before {
+.gsc-reply:last-child .gsc-tl-line:before,
+button.color-text-link.hover\:underline {
   border: 1px solid #e3e5e8 !important;
 }
 
@@ -1294,7 +1295,8 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   }
   
   .rounded-full,
-  .gsc-reply:last-child .gsc-tl-line:before {
+  .gsc-reply:last-child .gsc-tl-line:before,
+  button.color-text-link.hover\:underline {
     border: 1px solid #383d42 !important;
   }
 
@@ -1461,4 +1463,18 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
 
 .gsc-reply:last-child .gsc-tl-line:hover:before {
   transform: rotate(360deg);
+}
+
+button.color-text-link.hover\:underline {
+  background-color: var(--color-canvas-default,var(--color-bg-primary));
+  border-radius: 8px !important;
+  padding-inline-end: 0.3rem;
+  padding-bottom: 0.1rem;
+  padding-inline-start: 0.3rem;
+  padding-top: 0.1rem;
+  color: var(--color-fg-muted,var(--color-text-secondary));
+}
+
+button.color-text-link.hover\:underline:hover {
+  text-decoration: none !important;
 }
