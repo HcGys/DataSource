@@ -1168,7 +1168,7 @@ button.color-text-link.hover\:underline,
 
 .markdown blockquote,
 thead > tr > th {
-  background-color: (--color-canvas-subtle,var(--color-bg-tertiary));
+  background-color: var(--color-neutral-muted) !important;
 }
 
 body * {
@@ -1180,11 +1180,16 @@ body * {
     background: transparent;
   }
   &::-webkit-scrollbar-thumb {
-    background: #ccc;
+    background: transparent;
     cursor: pointer;
     border-radius: 2px;
-    &:hover {
-      background: #808080;
+  }
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: #ccc;
+      &:hover {
+        background: #808080;
+      }
     }
   }
 }
@@ -1341,11 +1346,16 @@ body * {
       background: transparent;
     }
     &::-webkit-scrollbar-thumb {
-      background: #4d4d4d;
+      background: transparent;
       cursor: pointer;
       border-radius: 2px;
-      &:hover {
-        background: #858585;
+    }
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        background: #4d4d4d;
+        &:hover {
+          background: #858585;
+        }
       }
     }
   }
