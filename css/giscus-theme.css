@@ -1135,12 +1135,12 @@ button.gsc-pagination-button.color-border-primary,
 
 .gsc-reactions-popover.open.bottom:before {
   border-bottom-color: #e3e5e8 !important;
-  top: -16.7px !important;
+  top: -17px !important;
 }
 
 .gsc-reactions-popover.open.top:before {
   border-top-color: #e3e5e8 !important;
-  bottom: -16.7px !important;
+  bottom: -17px !important;
 }
 
 button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
@@ -1302,12 +1302,12 @@ body * {
 
   .gsc-reactions-popover.open.bottom:before {
     border-bottom-color: #383d42 !important;
-    top: -16.7px !important;
+    top: -17px !important;
   }
 
   .gsc-reactions-popover.open.top:before {
     border-top-color: #383d42 !important;
-    bottom: -16.7px !important;
+    bottom: -17px !important;
   }
 
   .markdown .highlight pre, .markdown pre, .markdown blockquote, thead > tr > th {
