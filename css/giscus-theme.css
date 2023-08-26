@@ -1153,7 +1153,8 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   color: #333;
 }
 
-.rounded-full {
+.rounded-full,
+.gsc-reply:last-child .gsc-tl-line:before {
   border: 1px solid #e3e5e8 !important;
 }
 
@@ -1287,7 +1288,8 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
     font-weight: 700;
   }
   
-  .rounded-full {
+  .rounded-full,
+  .gsc-reply:last-child .gsc-tl-line:before {
     border: 1px solid #383d42 !important;
   }
 
@@ -1394,12 +1396,13 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
 }
 .gsc-reply-author a,
 .gsc-comment-author a {
-text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .rounded-full {
   transition: all .5s ease-out;
   padding: 3px;
+  background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
 }
 
 .gsc-comment-author-avatar .rounded-full {
@@ -1414,4 +1417,22 @@ text-decoration: none !important;
 
 .gsc-tl-line {
   inset-inline-start: 33px !important;
+}
+
+.gsc-reply:last-child .gsc-tl-line:before {
+  content: '';
+  position: absolute;
+  top: calc(100% - 12px);
+  left: -4px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #383d42;
+  background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
+  transition: all .3s ease-out !important;
+}
+
+.gsc-reply:last-child .gsc-tl-line:hover:before {
+  transform: scale(2, 2);
 }
