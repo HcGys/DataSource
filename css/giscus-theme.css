@@ -1438,9 +1438,9 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
   transform: translateX(-2.5px);
 }
 
-.gsc-tl-line {
+/* .gsc-tl-line {
   inset-inline-start: 33px !important;
-}
+} */
 
 .gsc-reply:last-child .gsc-tl-line:before {
   content: '';
