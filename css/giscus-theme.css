@@ -1158,6 +1158,11 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
   border: 1px solid #e3e5e8 !important;
 }
 
+.gsc-reply:last-child .gsc-tl-line:before {
+  border: 1px solid #e3e5e8 !important;
+  background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
+}
+
 /*! Dark mode */
 @media (prefers-color-scheme: dark) {
 
@@ -1293,6 +1298,11 @@ button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
     border: 1px solid #383d42 !important;
   }
 
+  .gsc-reply:last-child .gsc-tl-line:before {
+    border: 1px solid #383d42 !important;
+    background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
+  }
+
 }
 
 /* 字体 */
@@ -1361,7 +1371,7 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
     background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
 }
 
-a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):before {
+a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):hover:before {
   height: 100%;
   opacity: .2;
   z-index: -1;
@@ -1405,6 +1415,10 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
   background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
 }
 
+.rounded-full:hover {
+  transform: rotate(360deg);
+}
+
 .gsc-comment-author-avatar .rounded-full {
   height: 40px;
   width: 40px;
@@ -1422,17 +1436,17 @@ a span, a:not(.items-center, .gsc-comment-author-avatar) {
 .gsc-reply:last-child .gsc-tl-line:before {
   content: '';
   position: absolute;
-  top: calc(100% - 12px);
-  left: -4px;
+  top: calc(100% - 25px);
+  left: -12px;
   display: block;
-  width: 10px;
-  height: 10px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
-  border: 1px solid #383d42;
   background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
   transition: all .3s ease-out !important;
+  background-size: 100% 100%;
 }
 
 .gsc-reply:last-child .gsc-tl-line:hover:before {
-  transform: scale(2, 2);
+  transform: rotate(360deg);
 }
