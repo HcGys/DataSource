@@ -1135,12 +1135,12 @@ button.gsc-pagination-button.color-border-primary,
 
 .gsc-reactions-popover.open.bottom:before {
   border-bottom-color: #e3e5e8 !important;
-  top: -17px !important;
+  top: -16.8px !important;
 }
 
 .gsc-reactions-popover.open.top:before {
   border-top-color: #e3e5e8 !important;
-  bottom: -17px !important;
+  bottom: -16.8px !important;
 }
 
 button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
@@ -1293,6 +1293,11 @@ body * {
     background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
   }
 
+  img {
+    -webkit-filter: brightness(60%);
+    filter: brightness(60%);
+  }
+
   button.gsc-pagination-button.color-border-primary,
   .gsc-reactions-popover,
   .gsc-comment-box:not(.gsc-comment-box-is-reply),
@@ -1302,12 +1307,12 @@ body * {
 
   .gsc-reactions-popover.open.bottom:before {
     border-bottom-color: #383d42 !important;
-    top: -17px !important;
+    top: -16.8px !important;
   }
 
   .gsc-reactions-popover.open.top:before {
     border-top-color: #383d42 !important;
-    bottom: -17px !important;
+    bottom: -16.8px !important;
   }
 
   .markdown .highlight pre, .markdown pre, .markdown blockquote, thead > tr > th {
@@ -1551,4 +1556,8 @@ button.color-text-link.hover\:underline:hover {
 
 .markdown table tr:nth-child(2n) {
   background-color: transparent !important;
+}
+
+img {
+  border-radius: 6px;
 }
