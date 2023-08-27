@@ -1532,11 +1532,15 @@ a span, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)) {
 
 .gsc-reply:last-child {
   min-height: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
-.gsc-reply:last-child .gsc-tl-line {
+/* .gsc-reply:last-child .gsc-tl-line {
   height: calc(100% - 15px);
+} */
+
+.gsc-replies {
+  padding-bottom: 1rem;
 }
 
 button.color-text-link.hover\:underline {
