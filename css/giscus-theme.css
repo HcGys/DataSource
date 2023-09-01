@@ -1575,3 +1575,13 @@ button.color-text-link.hover\:underline:hover {
 img {
   border-radius: 6px;
 }
+
+.gsc-reply-content.not-shown > em {
+  border: 1.5px dashed;
+  background-color: var(--color-canvas-default,var(--color-bg-primary));
+  border-radius: 8px !important;
+  padding-inline-end: 0.3rem;
+  padding-bottom: 0.1rem;
+  padding-inline-start: 0.3rem;
+  padding-top: 0.1rem;
+}
