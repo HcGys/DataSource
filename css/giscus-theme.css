@@ -1585,3 +1585,8 @@ img {
   padding-inline-start: 0.3rem;
   padding-top: 0.1rem;
 }
+
+button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-allowed {
+  background-color: var(--color-btn-bg);
+}
+
