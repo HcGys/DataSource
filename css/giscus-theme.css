@@ -1624,10 +1624,11 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
     border-bottom: none;
     color: var(--color-accent-fg,var(--color-text-link));
     z-index: 0;
+    text-decoration: none;
   }
   a span.font-semibold, a {
     position: relative;
-    text-decoration: none;
+    /* text-decoration: none; */
     /* line-height: 1.2; */
   }
 }
