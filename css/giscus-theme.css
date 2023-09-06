@@ -1438,7 +1438,7 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
     background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
 }
 
-a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover:before {
+a span.font-semibold:hover:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover:before {
   height: 100%;
   opacity: .2;
   z-index: -1;
@@ -1446,7 +1446,7 @@ a span:hover:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(i
   left: -2px;
   right: -2px;
 }
-a span:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):before {
+a span.font-semibold:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):before {
   content: '';
   position: absolute;
   border-radius: 2px;
@@ -1461,12 +1461,12 @@ a span:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):b
   -webkit-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
 }
-a span:hover, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover {
+a span.font-semibold:hover, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover {
   border-bottom: none;
   color: var(--color-accent-fg,var(--color-text-link));
   z-index: 0;
 }
-a span, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)) {
+a span.font-semibold, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)) {
   position: relative;
   text-decoration: none;
   /* line-height: 1.2; */
@@ -1590,3 +1590,44 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
   background-color: var(--color-btn-bg);
 }
 
+/*Firefox*/
+@-moz-document url-prefix() {
+  a span.font-semibold:hover:before, a:hover:before {
+    height: 100%;
+    opacity: .2;
+    z-index: -1;
+    bottom: 0;
+    left: -2px;
+    right: -2px;
+  }
+  a.items-center:hover:before,
+  a.gsc-comment-author-avatar:hover:before {
+    height: 0;
+  }
+
+  a span.font-semibold:before, a:before {
+    content: '';
+    position: absolute;
+    border-radius: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    opacity: .8;
+    background: var(--color-accent-fg,var(--color-text-link));
+    transition: all .2s ease-out !important;
+    -moz-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+  }
+  a span.font-semibold:hover, a:hover {
+    border-bottom: none;
+    color: var(--color-accent-fg,var(--color-text-link));
+    z-index: 0;
+  }
+  a span.font-semibold, a {
+    position: relative;
+    text-decoration: none;
+    /* line-height: 1.2; */
+  }
+}
