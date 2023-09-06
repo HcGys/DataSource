@@ -1438,7 +1438,7 @@ form.color-bg-primary.color-border-primary.gsc-comment-box.gsc-comment-box-is-re
     background-color: var(--color-canvas-inset,var(--color-input-contrast-bg)) !important;
 }
 
-a span.font-semibold:hover:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover:before {
+a span.link-primary:hover:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover:before {
   height: 100%;
   opacity: .2;
   z-index: -1;
@@ -1446,7 +1446,7 @@ a span.font-semibold:hover:before, a:not(.items-center, .gsc-comment-author-avat
   left: -2px;
   right: -2px;
 }
-a span.font-semibold:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):before {
+a span.link-primary:before, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):before {
   content: '';
   position: absolute;
   border-radius: 2px;
@@ -1461,12 +1461,12 @@ a span.font-semibold:before, a:not(.items-center, .gsc-comment-author-avatar):no
   -webkit-transition: all .2s ease-out;
   -o-transition: all .2s ease-out;
 }
-a span.font-semibold:hover, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover {
+a span.link-primary:hover, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)):hover {
   border-bottom: none;
   color: var(--color-accent-fg,var(--color-text-link));
   z-index: 0;
 }
-a span.font-semibold, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)) {
+a span.link-primary, a:not(.items-center, .gsc-comment-author-avatar):not(:has(img)) {
   position: relative;
   text-decoration: none;
   /* line-height: 1.2; */
@@ -1592,7 +1592,7 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
 
 /*Firefox*/
 @-moz-document url-prefix() {
-  a span.font-semibold:hover:before, a:hover:before {
+  a span.link-primary:hover:before, a.link-secondary:hover:before, a.color-text-primary:hover:before {
     height: 100%;
     opacity: .2;
     z-index: -1;
@@ -1605,7 +1605,7 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
     height: 0;
   }
 
-  a span.font-semibold:before, a:before {
+  a span.link-primary:before, a.link-secondary:before, a.color-text-primary:before {
     content: '';
     position: absolute;
     border-radius: 2px;
@@ -1620,15 +1620,13 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
   }
-  a span.font-semibold:hover, a:hover {
+  a span.link-primary:hover, a.link-secondary:hover, a.color-text-primary:hover {
     border-bottom: none;
     color: var(--color-accent-fg,var(--color-text-link));
     z-index: 0;
     text-decoration: none;
   }
-  a span.font-semibold, a {
+  a span.link-primary, a.link-secondary, a.color-text-primary {
     position: relative;
-    /* text-decoration: none; */
-    /* line-height: 1.2; */
   }
 }
