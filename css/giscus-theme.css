@@ -1161,15 +1161,15 @@ button.color-text-link.hover\:underline,
   border: 1px solid #e3e5e8 !important;
 }
 
-/* .gsc-reply:last-child .gsc-tl-line:before {
-  border: 1px solid #e3e5e8 !important;
-  background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
-} */
-
-.color-bg-tertiary.gsc-reply-box:before {
+.gsc-reply:last-child .gsc-tl-line:before {
   border: 1px solid #e3e5e8 !important;
   background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
 }
+
+/* .color-bg-tertiary.gsc-reply-box:before {
+  border: 1px solid #e3e5e8 !important;
+  background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
+} */
 
 .markdown blockquote,
 thead > tr > th {
@@ -1342,15 +1342,15 @@ body * {
     border: 1px solid #383d42 !important;
   }
 
-  /* .gsc-reply:last-child .gsc-tl-line:before {
-    border: 1px solid #383d42 !important;
-    background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
-  } */
-
-  .color-bg-tertiary.gsc-reply-box:before {
+  .gsc-reply:last-child .gsc-tl-line:before {
     border: 1px solid #383d42 !important;
     background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
   }
+
+  /* .color-bg-tertiary.gsc-reply-box:before {
+    border: 1px solid #383d42 !important;
+    background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
+  } */
 
   body * {
     &::-webkit-scrollbar {
@@ -1524,7 +1524,7 @@ a span.link-primary, a:not(.items-center, .gsc-comment-author-avatar):not(:has(i
 
 /* =============旧版样式==================== */
 
-/* .gsc-reply:last-child .gsc-tl-line:before {
+.gsc-reply:last-child .gsc-tl-line:before {
   content: '';
   position: absolute;
   top: calc(100% - 25px);
@@ -1545,11 +1545,11 @@ a span.link-primary, a:not(.items-center, .gsc-comment-author-avatar):not(:has(i
 .gsc-reply:last-child {
   min-height: 120px;
   padding-bottom: 40px;
-} */
+}
 
 /* ================旧版样式 end=================== */
 
-.color-bg-tertiary.gsc-reply-box:before {
+/* .color-bg-tertiary.gsc-reply-box:before {
   content: '';
   margin-right: 10px;
   margin-left: 1px;
@@ -1566,7 +1566,7 @@ a span.link-primary, a:not(.items-center, .gsc-comment-author-avatar):not(:has(i
 
 .gsc-reply:last-child .gsc-tl-line {
   height: calc(100% + 40px);
-}
+} */
 
 .gsc-replies {
   padding-bottom: 1rem;
