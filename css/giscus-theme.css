@@ -1166,11 +1166,6 @@ button.color-text-link.hover\:underline,
   background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
 }
 
-.gsc-comment-footer+.gsc-reply-box:before {
-  border: 1px solid #e3e5e8 !important;
-  background-image: url(https://static.listentothewind.cn/stellar/img/foot-light.png);
-}
-
 .markdown blockquote,
 thead > tr > th {
   background-color: var(--color-neutral-muted) !important;
@@ -1343,11 +1338,6 @@ body * {
   }
 
   .gsc-reply:last-child .gsc-tl-line:before {
-    border: 1px solid #383d42 !important;
-    background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
-  }
-
-  .gsc-comment-footer+.gsc-reply-box:before {
     border: 1px solid #383d42 !important;
     background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
   }
@@ -1543,18 +1533,6 @@ a span.link-primary, a:not(.items-center, .gsc-comment-author-avatar):not(:has(i
 .gsc-reply:last-child {
   min-height: 120px;
   padding-bottom: 40px;
-}
-
-.gsc-comment-footer+.gsc-reply-box:before {
-  content: '';
-  margin-right: 10px;
-  margin-left: 1px;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
-  transition: all .3s ease-out !important;
-  background-size: 100% 100%;
 }
 
 /* .gsc-reply:last-child .gsc-tl-line {
