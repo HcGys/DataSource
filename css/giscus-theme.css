@@ -1552,19 +1552,21 @@ a span.link-primary, a:not(.items-center, .gsc-comment-author-avatar):not(:has(i
 .color-bg-tertiary.gsc-reply-box:before {
   content: '';
   margin-right: 10px;
-  margin-left: 2px;
-  padding: 0.25rem;
-  width: 28px;
-  height: 28px;
+  margin-left: 1px;
+  width: 30px;
   border-radius: 50%;
   background-color: var(--color-canvas-subtle,var(--color-bg-tertiary));
   transition: all .3s ease-out !important;
   background-size: 100% 100%;
 }
 
-/* .gsc-reply:last-child .gsc-tl-line {
-  height: calc(100% - 15px);
-} */
+.color-bg-tertiary.gsc-reply-box:hover:before {
+  transform: rotate(360deg);
+}
+
+.gsc-reply:last-child .gsc-tl-line {
+  height: calc(100% + 40px);
+}
 
 .gsc-replies {
   padding-bottom: 1rem;
