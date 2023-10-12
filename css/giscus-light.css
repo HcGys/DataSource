@@ -1130,7 +1130,9 @@ button.gsc-pagination-button.color-border-primary,
 .gsc-reactions-popover,
 .gsc-comment-box:not(.gsc-comment-box-is-reply),
 .gsc-comment {
-  border: 1px solid #e3e5e8 !important;
+  /* 有边界 */
+  /* border: 1px solid #e3e5e8 !important; */
+  border: none;
 }
 
 .gsc-reactions-popover.open.bottom:before {

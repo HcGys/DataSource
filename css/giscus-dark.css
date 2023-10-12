@@ -1089,15 +1089,15 @@ main {
     --color-btn-primary-disabled-border: rgb(240 246 252 / 10%);
     --color-action-list-item-default-hover-bg: rgb(177 186 196 / 12%);
     --color-segmented-control-bg: rgb(110 118 129 / 10%);
-    --color-segmented-control-button-bg: #181a1c; /* #0d1117; */
+    --color-segmented-control-button-bg: #1c1e21; /* #181a1c #0d1117; */
     --color-segmented-control-button-selected-border: #6e7681;
     --color-fg-default: #e6edf3;
     --color-fg-muted: #7d8590;
     --color-fg-subtle: #6e7681;
     --color-canvas-default: #26292c;
     --color-canvas-overlay: #26292c;
-    --color-canvas-inset: #181a1c;
-    --color-canvas-subtle: #181a1c;
+    --color-canvas-inset: #1c1e21;
+    --color-canvas-subtle: #1c1e21;
     --color-border-default: #30363d;
     --color-border-muted: #21262d;
     --color-neutral-muted: rgb(110 118 129 / 40%);
@@ -1139,7 +1139,9 @@ button.gsc-pagination-button.color-border-primary,
 .gsc-reactions-popover,
 .gsc-comment-box:not(.gsc-comment-box-is-reply),
 .gsc-comment {
-border: 1px solid #383d42 !important;
+  /* 有边界 */
+/* border: 1px solid #383d42 !important; */
+border: none;
 }
 
 .gsc-reactions-popover.open.bottom:before {
