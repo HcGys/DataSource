@@ -24,7 +24,7 @@
         const clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
         if (!clientWidth) return;
         let fontSize = clientWidth / 1920;
-        return res*fontSize > 10 ? res*fontSize : 10;
+        return res*fontSize > 12 ? res*fontSize : 12;
     }    
     echarts.registerTheme('light', {
         "color": [
@@ -39,7 +39,7 @@
             "#724e58",
             "#4b565b"
         ],
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "rgba(254,248,239,1)",
         "textStyle": {},
         "title": {
             "textStyle": {
