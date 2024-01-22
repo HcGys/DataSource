@@ -24,7 +24,7 @@
         const clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
         if (!clientWidth) return;
         let fontSize = clientWidth / 1920;
-        return res*fontSize > 12 ? res*fontSize : 12;
+        return res*fontSize > 14 ? res*fontSize : 14;
     }    
     echarts.registerTheme('dark', {
         "color": [
