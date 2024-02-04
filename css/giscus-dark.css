@@ -1095,7 +1095,7 @@ main {
     --color-fg-muted: #7d8590;
     --color-fg-subtle: #6e7681;
     --color-canvas-default: #26292c;
-    --color-canvas-overlay: #26292c;
+    --color-canvas-overlay: rgb(38 41 44 / 75%);  /* #26292c; */
     --color-canvas-inset: #1c1e21;
     --color-canvas-subtle: #1c1e21;
     --color-border-default: #30363d;
@@ -1145,17 +1145,15 @@ border: none;
 }
 
 .gsc-reactions-popover.open.bottom:before {
-border-bottom-color: #383d42 !important;
-top: -16.8px !important;
+  border-bottom-color: #383d42 !important;
 }
 
 .gsc-reactions-popover.open.top:before {
-border-top-color: #383d42 !important;
-bottom: -16.8px !important;
+  border-top-color: #383d42 !important;
 }
 
 .markdown .highlight pre, .markdown pre, .markdown blockquote, thead > tr > th {
-    background-color: #2f3337 !important;
+  background-color: #2f3337 !important;
 }
 
 button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
@@ -1163,9 +1161,9 @@ background: #26292c !important;
 }
 
 #__next :is(.px-\[7px\]) {
-background-color: #373d43;
-color: #ccc;
-font-weight: 700;
+  background-color: #373d43;
+  color: #ccc;
+  font-weight: 700;
 }
 
 .rounded-full,
@@ -1173,12 +1171,12 @@ font-weight: 700;
 button.color-text-link.hover\:underline,
 .gsc-reactions-button,
 .markdown table td, .markdown table th {
-border: 1px solid #383d42 !important;
+  border: 1px solid #383d42 !important;
 }
 
 .gsc-reply:last-child .gsc-tl-line:before {
-border: 1px solid #383d42 !important;
-background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
+  border: 1px solid #383d42 !important;
+  background-image: url(https://static.listentothewind.cn/stellar/img/foot-dark.png);
 }
 
 body * {
@@ -1425,6 +1423,16 @@ img {
 
 button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-allowed {
   background-color: var(--color-btn-bg);
+}
+
+/* 表情框 */
+.color-bg-overlay {
+  backdrop-filter: saturate(200%) blur(6px);
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.4));
+}
+
+.gsc-reactions-popover.open:after{
+  border: none;
 }
 
 /*Firefox*/

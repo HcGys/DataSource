@@ -1137,12 +1137,10 @@ button.gsc-pagination-button.color-border-primary,
 
 .gsc-reactions-popover.open.bottom:before {
   border-bottom-color: #e3e5e8 !important;
-  top: -16.8px !important;
 }
 
 .gsc-reactions-popover.open.top:before {
   border-top-color: #e3e5e8 !important;
-  bottom: -16.8px !important;
 }
 
 button.ClipboardButton.btn.js-clipboard-copy.m-2.p-0.tooltipped-no-delay {
@@ -1418,6 +1416,12 @@ img {
 
 button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-allowed {
   background-color: var(--color-btn-bg);
+}
+
+/* 表情框 */
+.color-bg-overlay {
+  backdrop-filter: saturate(200%) blur(6px);
+  filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.2));
 }
 
 /*Firefox*/
