@@ -1095,7 +1095,7 @@ main {
     --color-fg-muted: #7d8590;
     --color-fg-subtle: #6e7681;
     --color-canvas-default: #26292c;
-    --color-canvas-overlay: rgb(38 41 44 / 75%);  /* #26292c; */
+    --color-canvas-overlay: #26292c;
     --color-canvas-inset: #1c1e21;
     --color-canvas-subtle: #1c1e21;
     --color-border-default: #30363d;
@@ -1427,7 +1427,6 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
 
 /* 表情框 */
 .color-bg-overlay {
-  backdrop-filter: saturate(200%) blur(8px);
   filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.4));
 }
 

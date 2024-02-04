@@ -1093,7 +1093,7 @@ main {
   --color-fg-muted: #656d76;
   --color-fg-subtle: #6e7781;
   --color-canvas-default: #ebf1f6; /* #fff */
-  --color-canvas-overlay: rgb(235 241 246 / 75%); /* #ebf1f6; */ /* #fff */
+  --color-canvas-overlay: #ebf1f6; /* #fff */
   --color-canvas-inset: #f6f8fa;
   --color-canvas-subtle: #f6f8fa;
   --color-border-default: #d0d7de;
@@ -1420,7 +1420,6 @@ button.gsc-direct-reaction-button.gsc-social-reaction-summary-item.cursor-not-al
 
 /* 表情框 */
 .color-bg-overlay {
-  backdrop-filter: saturate(200%) blur(8px);
   filter: drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.2));
 }
 
