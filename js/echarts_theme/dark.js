@@ -85,6 +85,9 @@
             "itemStyle": {
                 "borderWidth": "0",
                 "borderColor": "#b3b3b3"
+            },
+            "label": {
+                "fontFamily": 'LXGW WenKai Screen,Menlo,Monaco,Consolas,system-ui,"Courier New",monospace,sans-serif'
             }
         },
         "scatter": {
